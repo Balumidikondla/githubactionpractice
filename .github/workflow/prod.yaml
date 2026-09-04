@@ -9,4 +9,4 @@ jobs:
         steps:
 
           - name: messsage
-            run: echo "Print this"
+            run: echo "print this"
