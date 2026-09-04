@@ -1,7 +1,7 @@
 name: githubaction
 
 on: 
-    push
+    push:
 jobs: 
     githubjob:
         runs-on: self-hosted
