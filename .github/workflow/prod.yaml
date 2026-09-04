@@ -1,0 +1,12 @@
+name: githubaction
+
+on: 
+    push
+jobs: 
+    githubjob:
+        runs-on: self-hosted
+
+        steps:
+
+          - name: messsage
+            run: echo "Print this"
